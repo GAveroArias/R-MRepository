@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.favorites-container {
+    padding-top: 5%; /* Ajusta el espacio según la altura de tu barra de navegación */
+}
+
+.selectors-container {
+    position: fixed;
+    align-items: center;
+    display: block;
+    justify-content: space-between;
+    margin: 3.5%;
+    padding: 3px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.selectors-container select {
+    margin: 0;
+    background-color: black;
+    color: green;
+    border: none;
+    padding: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 200px;
+}
+
+.selectors-container select:hover {
+    background-color: green;
+    color: white;
+}
